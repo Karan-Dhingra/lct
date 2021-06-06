@@ -11,7 +11,7 @@ import logo6 from "./media/Languages/6.png"
 import tech1 from "./media/Tech/1.png"
 import tech2 from "./media/Tech/2.png"
 import tech3 from "./media/Tech/3.png"
-import tech4 from "./media/Tech/4.png"
+import tech4 from "./media/Tech/4.png"  
 // import tech5 from "./media/Tech/5.png"
 
 import logo from "./media/Blog.png"

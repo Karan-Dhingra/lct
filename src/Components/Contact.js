@@ -11,7 +11,7 @@ export const Contact = () => {
                 <div className="block-1">
                     <div className="image-contact">
                         <h4>Get in Touch</h4>
-                        <img src={Logo} height="510px" width="460px" alt="contact" />
+                        <img src={Logo} height="576px" width="540px" alt="contact" />
                     </div>
                     <div className="contact-form">
                         <h4>Message Us</h4>

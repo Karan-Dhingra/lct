@@ -19,6 +19,7 @@ function App() {
       <Router>
         <Switch>
           <Redirect from='/lct' to="/" />
+          <Redirect from='' to="/" />
           <Route exact path="/" render={() => {
             return (
               <>
