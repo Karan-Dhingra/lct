@@ -6,6 +6,13 @@ import { Header } from "./Components/Header";
 import { About } from "./Components/About";
 import { Contact } from "./Components/Contact";
 import { Blog } from "./Components/Blog";
+import { Blog5 } from "./Components/blog/Blog5";
+import { Blog4 } from "./Components/blog/Blog4";
+import { Blog3 } from "./Components/blog/Blog3";
+import { Blog2 } from "./Components/blog/Blog2";
+import { Blog1 } from "./Components/blog/Blog1";
+// import scrollToTop from "./Components/scrollToTop";
+// import { ScrollButton } from "./Components/ScrollButton"
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,6 +24,7 @@ function App() {
   return (
     <>
       <Router>
+        {/* <scrollToTop> */}
         <Switch>
           <Redirect from='/lct' to="/" />
           {/* <Redirect from='' to="/" /> */}
@@ -47,8 +55,35 @@ function App() {
             <Contact />
           </Route>
 
+          <Route exact path="/blog5">
+            <Header />
+            <Blog5 />
+          </Route>
+
+          <Route exact path="/blog4">
+            <Header />
+            <Blog4 />
+          </Route>
+
+          <Route exact path="/blog3">
+            <Header />
+            <Blog3 />
+          </Route>
+
+          <Route exact path="/blog2">
+            <Header />
+            <Blog2 />
+          </Route>
+
+          <Route exact path="/blog1">
+            <Header />
+            <Blog1 />
+          </Route>
+
         </Switch>
         <Footer />
+        {/* </scrollToTop> */}
+
       </Router>
     </>
   );
