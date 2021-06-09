@@ -37,15 +37,6 @@ function App() {
             )
           }}>
           </Route>
-          <Route exact path="/" render={() => {
-            return (
-              <>
-                <Home_First_Box />
-                <Home_Content />
-              </>
-            )
-          }}>
-          </Route>
         </Switch>
 
         <Switch>
@@ -64,27 +55,27 @@ function App() {
             <Contact />
           </Route>
 
-          <Route exact path="/blog5">
+          <Route exact path="/blog/blog5">
             <Header />
             <Blog5 />
           </Route>
 
-          <Route exact path="/blog4">
+          <Route exact path="/blog/blog4">
             <Header />
             <Blog4 />
           </Route>
 
-          <Route exact path="/blog3">
+          <Route exact path="/blog/blog3">
             <Header />
             <Blog3 />
           </Route>
 
-          <Route exact path="/blog2">
+          <Route exact path="/blog/blog2">
             <Header />
             <Blog2 />
           </Route>
 
-          <Route exact path="/blog1">
+          <Route exact path="/blog/blog1">
             <Header />
             <Blog1 />
           </Route>

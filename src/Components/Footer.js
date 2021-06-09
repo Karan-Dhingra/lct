@@ -42,7 +42,7 @@ export const Footer = () => {
             <div className="footer-part">
                 <div className="content-footer">
                     <h1>Content</h1>
-                    <p><Link to="/">Home</Link>| <Link to="/">Blog</Link>| <Link to="/about">About</Link>| <Link to="/contact">Contact</Link>| <Link to="/">Signup</Link>| <Link to="/">Login</Link></p>
+                    <p><Link to="/">Home</Link>| <Link to="/blog">Blog</Link>| <Link to="/about">About</Link>| <Link to="/contact">Contact</Link>| <Link to="/">Signup</Link>| <Link to="/">Login</Link></p>
                 </div>
 
                 <div className="about-me">
