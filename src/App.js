@@ -37,6 +37,15 @@ function App() {
             )
           }}>
           </Route>
+          <Route exact path="/" render={() => {
+            return (
+              <>
+                <Home_First_Box />
+                <Home_Content />
+              </>
+            )
+          }}>
+          </Route>
         </Switch>
 
         <Switch>
