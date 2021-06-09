@@ -107,9 +107,10 @@ body {
     border: 0px;
 }
 
-.form-group-new:hover {
+
+/* .form-group-new:hover {
     transform: scaleY(1.2);
-}
+} */
 
 .add-margin {
     margin-top: 8px;
