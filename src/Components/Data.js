@@ -18,13 +18,13 @@ export default [{
     },
     {
         index: '/blog3',
-        img: img3,
+        img: img2,
         title: 'Roadmap for Android Development',
         para: 'To start with Android Development you must be aware of Prerequisites for Android Development. First of all you must decide the language which will you use in development and XML(Syntax). For languages we have two choices...'
     },
     {
         index: '/blog2',
-        img: img2,
+        img: img3,
         title: 'How to download Python3 in 2021??',
         para: 'Python is an interpreted high-level general-purpose programming language. Python’s design philosophy emphasizes code readability with its notable use of significant indentation. Follow these steps to download and install Python in your PC/Laptop...'
     },
