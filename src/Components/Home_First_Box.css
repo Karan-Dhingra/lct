@@ -35,6 +35,11 @@
     text-shadow: 2px 3px 2px black;
 }
 
+.top-text p:hover {
+    transform: scale(1.01);
+    text-shadow: 2px 5px 3px black;
+}
+
 .line-bottom {
     height: 5px;
     /* border: 2px solid red; */

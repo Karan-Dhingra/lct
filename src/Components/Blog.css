@@ -79,7 +79,7 @@ body {
     box-shadow: 5px 4px 15px 0 rgba(0, 0, 0, 0.6);
     /*transition: 0.5s; */
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
 
 .blog-content-blog a {
