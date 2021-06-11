@@ -12,7 +12,9 @@ import { Blog3 } from "./Components/blog/Blog3";
 import { Blog2 } from "./Components/blog/Blog2";
 import { Blog1 } from "./Components/blog/Blog1";
 import { Page_404 } from "./Components/page/Page_404";
-import ScrollButton from "./Components/Scroll";
+import  ScrollButton  from "./Components/Scroll";
+// import scrollToTop from "./Components/scrollToTop";
+// import { ScrollButton } from "./Components/ScrollButton"
 
 import {
   BrowserRouter as Router,
@@ -25,79 +27,79 @@ function App() {
   return (
     <>
       <Router>
-        <Header />
-          <Switch>
-            
-            <Redirect from='/lct' to="/" />
+        <Header/>
+        <Switch>
 
-            <Route exact path="/" render={() => {
-              return (
-                <>
-                  <Home_First_Box />
-                  <Home_Content />
-                </>
-              )
-            }}>
-            </Route>
+          <Redirect from='/lct' to="/" />
 
-            <Route exact path="/blog" render={() => {
-              return (
-                <>
-                  <Blog />
-                </>
-              )
-            }}>
-            </Route>
+          <Route exact path="/" render={() => {
+            return (
+              <>
+                <Home_First_Box />
+                <Home_Content />
+              </>
+            )
+          }}>
+          </Route>
 
-            <Route exact path="/about" render={() => {
-              return (
-                <>
-                  <About />
-                </>
-              )
-            }}>
-            </Route>
+          <Route exact path="/blog" render={() => {
+            return (
+              <>
+                <Blog/>
+              </>
+            )
+          }}>
+          </Route>
 
-            <Route exact path="/contact" render={() => {
-              return (
-                <>
-                  <Contact />
-                </>
-              )
-            }}>
-            </Route>
+          <Route exact path="/about" render={() => {
+            return (
+              <>
+                <About />
+              </>
+            )
+          }}>
+          </Route>
 
-            <Route exact path="/blog/blog5">
-              <Blog5 />
-            </Route>
+          <Route exact path="/contact" render={() => {
+            return (
+              <>
+                <Contact />
+              </>
+            )
+          }}>
+          </Route>
 
-            <Route exact path="/blog/blog4">
-              <Blog4 />
-            </Route>
+          <Route exact path="/blog/blog5">
+            <Blog5 />
+          </Route>
 
-            <Route exact path="/blog/blog3">
-              <Blog3 />
-            </Route>
+          <Route exact path="/blog/blog4">
+            <Blog4 />
+          </Route>
 
-            <Route exact path="/blog/blog2">
-              <Blog2 />
-            </Route>
+          <Route exact path="/blog/blog3">
+            <Blog3 />
+          </Route>
 
-            <Route exact path="/blog/blog1">
-              <Blog1 />
-            </Route>
+          <Route exact path="/blog/blog2">
+            <Blog2 />
+          </Route>
 
-            <Route render={() => {
-              return (
-                <>
-                  <Page_404 />
-                </>
-              )
-            }}>
-            </Route>
+          <Route exact path="/blog/blog1">
+            <Blog1 />
+          </Route>
 
-          </Switch>
-        <ScrollButton />
+          <Route render={() => {
+            return (
+              <>
+                <Page_404/>
+              </>
+            )
+          }}>
+          </Route>
+
+        </Switch>
+        <ScrollButton/>
         <Footer />
       </Router>
     </>
