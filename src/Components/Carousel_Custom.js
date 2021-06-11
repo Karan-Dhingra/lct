@@ -30,8 +30,7 @@ export const Carousel_Custom = () => {
                     </div>
                     <div className="center">
                         <a href={images[currImg].link}><h1>CLICK HERE</h1></a>
-                            {/* <p>{images[currImg].subtitle}</p> */}
-                        </div>
+                    </div>  
                     <div
                         className="right"
                         onClick={() => {

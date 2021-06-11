@@ -53,7 +53,7 @@ export const Footer = () => {
 
             <div className="social-copy">
                 <div className="copy">
-                    (c) Copyright 2021| LetCodeTogether
+                    &copy; Copyright 2021| LetCodeTogether
             </div>
 
                 <div className="social-icons">

@@ -13,7 +13,7 @@ export const Blog = () => {
         <div className="container-blog">
             <div className="upper-blog-heading">
                 <h2 className="heading-blog">BLOG</h2>
-                <img className="image-blog" img src={logo_upper} height="600px" width="100%" alt="" />
+                <img className="image-blog" img src={logo_upper} height="15%" width="100%" alt="" />
             </div>
             <div className="blog-content-blog">
                 {Data.map((data) => {

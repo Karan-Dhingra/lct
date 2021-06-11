@@ -9,9 +9,9 @@ export const Contact = () => {
                 <h1 className="heading">Contact Me</h1>
                 <p className="sub-heading">Don’t hesitate to reach out with the contact information below, or send a message using the form.</p>
                 <div className="block-1">
-                    <div className="image-contact">
+                    <div className="image-contact" id="image-div">
                         <h4>Get in Touch</h4>
-                        <img src={Logo} height="576px" width="540px" alt="contact" />
+                        <img src={Logo} height="90%" width="100%" alt="contact" />
                     </div>
                     <div className="contact-form">
                         <h4>Message Us</h4>

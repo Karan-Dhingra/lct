@@ -63,9 +63,7 @@ export const Home_Content = () => {
                                                         <small className="text-muted">Last updated 3 mins ago</small>
                                                     </div> --> */}
                         </div>
-                    </div>
                     {/* <!-- Card 4 to 6 --> */}
-                    <div className="card-group-three">
                         <div className="cards">
                             <div className="sub-card">
                                 <img className="img" src={logo4} height="300px" width="300px" className="card-img-top" alt="..." />

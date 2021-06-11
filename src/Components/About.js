@@ -6,14 +6,15 @@ import git from "./media/svg/github.svg"
 import li from "./media/svg/linkedin.svg"
 import twitter from "./media/svg/twitter.svg"
 import yt from "./media/svg/youtube.svg"
+import me from "./media/me.jpg"
 
 export const About = () => {
     return (
-        <>
+        <div className="body-about">
             <h1 className="heading-about-me">About Me</h1>
             <div className="block-about">
                 <div className="my-image">
-                    <img src="" alt="" className="me-image" />
+                    <img src={me} alt="me" className="me-image" width="100%" height="100%"/>
                 </div>
                 <div className="content-about">
                     <div className="contact-about-body">
@@ -87,6 +88,6 @@ export const About = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

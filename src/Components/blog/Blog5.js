@@ -4,8 +4,8 @@ import img2 from '../media/Blog/5_2.png'
 import img3 from '../media/Blog/5_3.jpg'
 import img4 from '../media/Blog/5_4.jpg'
 import img5 from '../media/Blog/5_5.jpg'
-
 import "./blog5.css"
+
 export const Blog5 = () => {
     return (
         <div className="container-blogs">
