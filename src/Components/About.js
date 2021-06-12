@@ -67,22 +67,34 @@ export const About = () => {
 
                         <div className="content-part-3">
                             <div className="social-media-icons-contact-">
-                                <img className = "contact-social" src={insta} height="30px" width="30px" alt="" />
+                                <a href="https://www.instagram.com/karan__dhingra__/" target="_blank" rel="noopener noreferrer">
+                                    <img className = "contact-social" src={insta} height="30px" width="30px" alt="" />
+                                </a>
                             </div>
                             <div className="social-media-icons-contact-">
-                                <img className = "contact-social" src={fb} height="30px" width="30px" alt="" />
+                                <a href="https://www.facebook.com/karan.dhingra.1297/" target="_blank" rel="noopener noreferrer">
+                                    <img className = "contact-social" src={fb} height="30px" width="30px" alt="" />
+                                </a>
                             </div>
                             <div className="social-media-icons-contact-">
-                                <img className = "contact-social" src={li} height="30px" width="30px" alt="" />
+                                <a href="https://www.linkedin.com/in/karan-dhingra-4bb854143/" target="_blank" rel="noopener noreferrer">
+                                    <img className = "contact-social" src={li} height="30px" width="30px" alt="" />
+                                </a>
                             </div>
                             <div className="social-media-icons-contact-">
-                                <img className = "contact-social" src={yt} height="30px" width="35px" alt="" />
+                                <a href="https://www.youtube.com/c/KaranDhingra" target="_blank" rel="noopener noreferrer">
+                                    <img className = "contact-social" src={yt} height="30px" width="35px" alt="" />
+                                </a>
                             </div>
                             <div className="social-media-icons-contact-">
-                                <img className = "contact-social" src={twitter} height="30px" width="30px" alt="" />
+                                <a href="https://twitter.com/KaranDh25556071" target="_blank" rel="noopener noreferrer">
+                                    <img className = "contact-social" src={twitter} height="30px" width="30px" alt="" />
+                                </a>
                             </div>
                             <div className="social-media-icons-contact-">
-                                <img className = "contact-social" className="social-icon-hover" src={git} height="30px" width="30px" alt="" />
+                                <a href="https://github.com/Karan-Dhingra" target="_blank" rel="noopener noreferrer">
+                                    <img className = "contact-social" className="social-icon-hover" src={git} height="30px" width="30px" alt="" />
+                                </a>
                             </div>
                         </div>
                     </div>

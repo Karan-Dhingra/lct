@@ -28,6 +28,7 @@ body {
 .body-about {
     display: block;
     margin: 0;
+    margin-bottom: 100px;
 }
 
 .heading-about-me {
@@ -159,6 +160,9 @@ body {
     .content-about {
         padding: 12px;
     }
+    .body-about {
+        margin-bottom: 20px;
+    }
 }
 
 @media(max-width: 520px) {
@@ -171,5 +175,19 @@ body {
     .content-part-2 h4 {
         margin-top: 10px;
         font-size: 20px;
+    }
+    .body-about {
+        margin-bottom: 10px;
+    }
+    .social-media-icons-contact- img {
+        height: 20px;
+        width: 19px;
+        margin: 0;
+        padding: 1px;
+    }
+    .heading-about-me {
+        font-size: 45px;
+        margin: 0;
+        margin-top: 110px;
     }
 }

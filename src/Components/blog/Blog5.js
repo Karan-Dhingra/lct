@@ -30,7 +30,7 @@ export const Blog5 = () => {
                 <ul>
                     <li>
                         <h2 className="li-heading">
-                            <a href="">GEEKS-FOR-GEEKS DSA – SELF PLACED COURSE.</a>
+                            <a href="https://practice.geeksforgeeks.org/courses/dsa-self-paced?source=google&medium=cpc&device=c&keyword=dsa&matchtype=b&campaignid=12690167462&adgroup=121920078673&gclid=Cj0KCQjwna2FBhDPARIsACAEc_Uk9U3KltWADpta1oMBRBtPLi-RNjLzyNO7zeTHIA9_jYz-LSJS04waAp8lEALw_wcB">GEEKS-FOR-GEEKS DSA – SELF PLACED COURSE.</a>
                         </h2>
                         <p className="li-para">This is Geeks For Geeks(GFG) Paid course. GeeksforGeeks realizes the importance of programming practice in climbing the stairs of success in the field of Computer Science. That is why, it also provides an option of practicing problems.
                         This huge database of problems is created by programming experts. This is one of my favorite platform where you can go. This is value for money and you will get certificate too.</p>
@@ -42,7 +42,7 @@ export const Blog5 = () => {
                     <br />
                     <li>
                         <h2 className="li-heading">
-                            <a href="">GFG – COMPLETE INTERVIEW PREPARATION WITH DOUBT ASSISTANCE</a>
+                            <a href="https://practice.geeksforgeeks.org/courses/cip-da">GFG – COMPLETE INTERVIEW PREPARATION WITH DOUBT ASSISTANCE</a>
                         </h2>
                         <p className="li-para">This is another course from GFG that covers everything which id need for placement with certificate. This is content which starts from a language (C++/ Java) then with CS-Subjects.
                     </p>
@@ -53,7 +53,7 @@ export const Blog5 = () => {
                     <br />
                     <li>
                         <h2 className="li-heading">
-                            <a href="">C++ PLACEMENT COURSE – COMPLETE COURSE FOR BEGINNERS TO ADVANCE</a>
+                            <a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ">C++ PLACEMENT COURSE – COMPLETE COURSE FOR BEGINNERS TO ADVANCE</a>
                         </h2>
                         <p className="li-para">This course is made by one of the known YouTuber Aman Dhattarwal known by Aman Bhaiya. He is having 3 4 Channels for Students. Best Unacademy tutor of Physics for JEE. This course is made by Aman Bhaiya team and team covers Engineers
                         / College Students. I WILL PREFER THIS COURSE FOR BEGINNERS TO ADVANCE LEVEL in field of Programing rather if you want to go for Competitive Coding or any other.</p>
@@ -66,7 +66,7 @@ export const Blog5 = () => {
                     <br />
                     <li>
                         <h2 className="li-heading">
-                            <a href="">CWH DSA COURSE</a>
+                            <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi">CWH DSA COURSE</a>
                         </h2>
                         <p className="li-para">CodeWithHarry (CWH) is the YouTube channel by Harry. This course is the free course and you will able to learn everything. which you need to do. CLICK HERE to visit his Channel. If you want to any programming Language wither C, C++,
                         Python, Java, Android Development, Web Development, Angular, Node any many more you can to with 0₹
@@ -80,7 +80,7 @@ export const Blog5 = () => {
                     <br />
                     <li>
                         <h2 className="li-heading">
-                            <a href="">DSA – ONE COURSE</a>
+                            <a href="https://www.youtube.com/playlist?list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p">DSA – ONE COURSE</a>
                         </h2>
                         <p className="li-para">This is another free course you can go with. This is made by Anuj Bhaiya, he is Software Engineer at Amazon. This course covers all DSA Concepts. This course is made with Java i.e. DSA with Java. If you like Java you can go with this
                         course.

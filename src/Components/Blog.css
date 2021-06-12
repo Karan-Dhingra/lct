@@ -104,4 +104,9 @@ body {
     .blog-blog {
         width: 300px;
     }
+    .heading-blog {
+        font-size: 45px;
+        margin-bottom: 12px;
+        margin-top: 110px;
+    }
 }

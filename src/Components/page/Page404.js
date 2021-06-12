@@ -4,7 +4,7 @@ import {
     Link
 } from "react-router-dom";
 
-export const Page_404 = () => {
+export const Page404 = () => {
     return (
         <div className="body-404">
             <div class="notfound-copy">
@@ -88,4 +88,4 @@ export const Page_404 = () => {
     )
 }
 
-export default Page_404
+export default Page404

@@ -28,6 +28,7 @@ body {
 .yt-video {
     display: block;
     padding: 5px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -83,6 +84,24 @@ body {
 
 .a-link:hover {
     color: black;
+}
+
+@media(max-width: 740px) {
+    .yt-video {
+        /* margin: 0; */
+        width: 500px;
+        height: 280px;
+        margin-bottom: -20px;
+    }
+}
+
+@media(max-width: 530px) {
+    .yt-video {
+        /* margin: 0; */
+        width: 310px;
+        height: 180px;
+        margin-bottom: -30px;
+    }
 }
 
 @media (max-width: 583px) {

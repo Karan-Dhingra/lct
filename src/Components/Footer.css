@@ -463,7 +463,7 @@ body {
 
 @media (max-width: 440px) {
     .footer-design {
-        padding-top: 15px;
+        padding-top: 20px;
         padding-bottom: 0px;
     }
     .footer-part {
@@ -542,7 +542,7 @@ body {
 
 @media (max-width: 400px) {
     .footer-design {
-        padding-top: 15px;
+        padding-top: 20px;
         padding-bottom: 0px;
     }
     .footer-part {

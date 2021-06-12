@@ -58,22 +58,34 @@ export const Footer = () => {
 
                 <div className="social-icons">
                     <div className="social-media-icons">
-                        <img src={insta} height="30px" width="30px" alt="" />
+                        <a href="https://www.instagram.com/karan__dhingra__/" target="_blank" rel="noopener noreferrer">
+                            <img src={insta} height="30px" width="30px" alt="" />
+                        </a>
                     </div>
                     <div className="social-media-icons">
-                        <img src={fb} height="30px" width="30px" alt="" />
+                        <a href="https://www.facebook.com/karan.dhingra.1297/" target="_blank" rel="noopener noreferrer">
+                            <img src={fb} height="30px" width="30px" alt="" />
+                        </a>
                     </div>
                     <div className="social-media-icons">
-                        <img src={li} height="30px" width="30px" alt="" />
+                        <a href="https://www.linkedin.com/in/karan-dhingra-4bb854143/" target="_blank" rel="noopener noreferrer">
+                            <img src={li} height="30px" width="30px" alt="" />
+                        </a>
                     </div>
                     <div className="social-media-icons">
-                        <img src={yt} height="30px" width="35px" alt="" />
+                        <a href="https://www.youtube.com/c/KaranDhingra" target="_blank" rel="noopener noreferrer">
+                            <img src={yt} height="30px" width="35px" alt="" />
+                        </a>
                     </div>
                     <div className="social-media-icons">
-                        <img src={twitter} height="30px" width="30px" alt="" />
+                        <a href="https://twitter.com/KaranDh25556071" target="_blank" rel="noopener noreferrer">
+                            <img src={twitter} height="30px" width="30px" alt="" />
+                        </a>
                     </div>
                     <div className="social-media-icons">
-                        <img className="social-icon-hover" src={git} height="30px" width="30px" alt="" />
+                        <a href="https://github.com/Karan-Dhingra" target="_blank" rel="noopener noreferrer">
+                            <img className="social-icon-hover" src={git} height="30px" width="30px" alt="" />
+                        </a>
                     </div>
                 </div>
             </div>

@@ -2,11 +2,8 @@ import React from 'react'
 import "./Blog.css"
 import logo_upper from "./media/blog-heading.jpg"
 // import logo from "./media/blog-topic.png"
-import Blog_Card from "./Blog_Card"
+import Blog_Card from "./BlogCard"
 import Data from "./Data"
-import {
-    Link
-} from "react-router-dom";
 
 export const Blog = () => {
     return (

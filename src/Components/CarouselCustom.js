@@ -6,7 +6,7 @@ import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
 
 
-export const Carousel_Custom = () => {
+export const CarouselCustom = () => {
     const [currImg, setCurrImg] = useState(0);
     return (
         <div className="box1 block-2">

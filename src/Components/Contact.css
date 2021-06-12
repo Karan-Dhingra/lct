@@ -164,4 +164,17 @@ body {
         padding-left: 20px;
         padding-right: 20px;
     }
+    .container-new-contact .heading {
+        font-size: 45px;
+        margin-bottom: 12px;
+        margin-top: 110px;
+    }
+    .sub-heading {
+        text-align: center;
+        font-weight: 300;
+        padding-left: 79px;
+        padding-right: 79px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
 }

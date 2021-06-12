@@ -44,7 +44,7 @@ export const Blog4 = () => {
                     <li>
                         <p className="li-para">First of all got to <b>Udemy</b>(Official Site) and then find course which you want to take, copy the name of course. Refer Image Below</p>
                         <div className="li-image">
-                            <img src={img1} alt="" className="li-image" />
+                            <img src={img1} alt="img1" className="li-image" />
                         </div>
                     </li>
                     <br />
@@ -107,7 +107,7 @@ export const Blog4 = () => {
                     </p>
                         <div className="li-image">
 
-                            <img src={img7} className="li-image " />
+                            <img src={img7} alt="" className="li-image " />
                         </div>
                     </li>
                     <br />

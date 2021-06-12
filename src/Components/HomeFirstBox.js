@@ -1,11 +1,9 @@
 import React from 'react'
-import { Header } from "./Header";
-import "./Home_First_Box.css"
+import "./HomeFirstBox.css"
 
-export const Home_First_Box = () => {
+export const HomeFirstBox = () => {
     return (
         <>
-        {/* <Header/> */}
         <div class="first-box">
             <div class="line-upper"></div>
             <div class="top-text">
