@@ -92,6 +92,11 @@ body {
     /* place-items: center; */
 }
 
+.card-group-three a {
+    text-decoration: none;
+    color: black;
+}
+
 .cards {
     margin-top: 20px;
     margin-bottom: 20px;

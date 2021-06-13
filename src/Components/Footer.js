@@ -47,13 +47,13 @@ export const Footer = () => {
 
                 <div className="about-me">
                     <h1>About Me</h1>
-                    <p>Computer science student of Badge 2020-2024 passionate about developing user-friendly software applications.</p>
+                    <p>Computer science student of Batch 2020-2024 passionate about developing user-friendly software applications.</p>
                 </div>
             </div>
 
             <div className="social-copy">
                 <div className="copy">
-                    &copy; Copyright 2021| LetCodeTogether
+                    &copy; Copyright 2021| LCT| Karan Dhingra 
             </div>
 
                 <div className="social-icons">

@@ -13,25 +13,24 @@ import { Blog2 } from "./Components/blog/Blog2";
 import { Blog1 } from "./Components/blog/Blog1";
 import { Page404 } from "./Components/page/Page404";
 import  ScrollButton  from "./Components/Scroll";
-// import scrollToTop from "./Components/scrollToTop";
-// import { ScrollButton } from "./Components/ScrollButton"
+import ScrollToTop from "./Components/ScrollToTop";
 
 import {
   BrowserRouter as Router,
+  HashRouter,
   Switch,
-  Route
+  Route,
+  BrowserRouter
 } from "react-router-dom";
-import { Redirect } from 'react-router';
+// import { Redirect } from 'react-router';
 
 function App() {
   return (
     <>
-      <Router>
+      <HashRouter>
+        <ScrollToTop />
         <Header/>
         <Switch>
-
-          <Redirect from='/lct' to="/" />
-
           <Route exact path="/" >
                 <HomeFirstBox />
                 <HomeContent />
@@ -76,7 +75,7 @@ function App() {
         </Switch>
         <ScrollButton/>
         <Footer />
-      </Router>
+      </HashRouter>
     </>
   );
 }
