@@ -62,6 +62,10 @@ body {
     font-size: 32px;
 }
 
+.nav-logo-new h1 a img {
+    margin-top: 12px;
+}
+
 .nav-logo-new h1 a {
     color: var(--white);
     text-decoration: none;

@@ -80,7 +80,6 @@ body {
 
 .contact-form {
     display: block;
-    padding-right: 18px;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -138,25 +137,43 @@ body {
 
 @media(max-width: 1320px) {
     .block-1 {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        display: block;
     }
-    .contact-form {
+    /* .contact-form {
         padding: 12px;
         margin-left: 50px;
         margin-right: 50px;
+    } */
+    .image-contact h4 {
+        text-align: center;
+    }
+    .google-form {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image-contact {
+        padding: 4px;
+    }
+    .image-contact img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 650px;
+    }
+    .contact-form h4 {
+        margin-top: 25px;
+        text-align: center;
     }
 }
 
 @media(max-width: 650px) {
     /* .container-new-contact+ */
-    .block-1 {
-        grid-template-rows: 0.5fr 1fr;
-    }
-    .contact-form {
+    /* .block-1 {} */
+    /* .contact-form {
         padding: 12px;
         margin: 0px;
-    }
+    } */
     .image-contact {
         padding: 12px;
     }
@@ -172,9 +189,57 @@ body {
     .sub-heading {
         text-align: center;
         font-weight: 300;
+        padding-left: 49px;
+        padding-right: 49px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 720px) {
+    .google-form {
+        width: 520px;
+    }
+    .image-contact img {
+        height: 550px;
+        width: 520px;
+    }
+}
+
+@media (max-width: 542px) {
+    .google-form {
+        width: 400px;
+        height: 900px;
+    }
+    .image-contact img {
+        height: 300px;
+        width: 400px;
+    }
+    /* .sub-heading {
+        text-align: center;
+        font-weight: 300;
         padding-left: 79px;
         padding-right: 79px;
         font-size: 15px;
+        margin-top: 10px;
+    } */
+}
+
+@media (max-width: 450px) {
+    .google-form {
+        width: 305px;
+        height: 700px;
+    }
+    .image-contact img {
+        height: 250px;
+        width: 305px;
+    }
+    .sub-heading {
+        text-align: center;
+        font-weight: 300;
+        padding-left: 29px;
+        padding-right: 29px;
+        font-size: 13px;
         margin-top: 10px;
     }
 }

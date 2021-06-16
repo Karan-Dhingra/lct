@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Header.css"
+import Logo from './media/LCT.png'
 import {
     Link
 } from "react-router-dom";
@@ -10,7 +11,8 @@ export const Header = () => {
 
             <div className="nav-logo-new">
                 <h1>
-                    <Link to="/"> LetCodeTogether</Link>
+                    {/* <Link to="/"> LetCodeTogether</Link> */}
+                    <Link to="/"> <img src={Logo} alt="logo" height="65px" width="80px"/></Link>
                 </h1>
             </div>
 

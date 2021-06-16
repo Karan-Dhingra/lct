@@ -35,7 +35,7 @@ export const Footer = () => {
                     <div className="form-group e-mail">
                         <input type="email" className="form-control" id="inputEmail" placeholder="Email Address" width="100%" />
                     </div>
-                    <button type="submit" className="subscribe-footer" width="100%">SUBSCRIBE</button>
+                    <button type="submit" className="subscribe-footer" width="100%"><a href="https://forms.gle/HtMkA9sDuHkprPPo7">SUBSCRIBE</a></button>
                 </form>
             </div>
 

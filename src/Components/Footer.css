@@ -121,6 +121,11 @@ body {
     padding: 4px;
 }
 
+.subscribe-footer a {
+    text-decoration: none;
+    color: white;
+}
+
 .subscribe-footer:hover {
     background-color: var(--button-hover-dark);
     color: white;

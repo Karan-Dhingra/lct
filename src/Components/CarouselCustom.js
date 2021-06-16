@@ -18,14 +18,12 @@ export const CarouselCustom = () => {
 
                 <div
                     className="carouselInner"
-                    style={{ backgroundImage: `url(${images[currImg].img})` }}
-                >
+                    style={{ backgroundImage: `url(${images[currImg].img})` }}>
                     <div
                         className="left"
                         onClick={() => {
                             currImg > 0 && setCurrImg(currImg - 1);
-                        }}
-                    >
+                        }}>
                         <ArrowBackIosIcon style={{ fontSize: 30 }} />
                     </div>
                     <div className="center">
@@ -35,8 +33,7 @@ export const CarouselCustom = () => {
                         className="right"
                         onClick={() => {
                             currImg < images.length - 1 && setCurrImg(currImg + 1);
-                        }}
-                    >
+                        }}>
                         <ArrowForwardIosIcon style={{ fontSize: 30 }} />
                     </div>
                 </div>
